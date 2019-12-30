@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  font-family: Karla;
+  background-color: #e5eff5; }
+
+h1 {
+  font-size: 2rem;
+  color: #2ab2af;
+  margin-bottom: 1.8rem; }
+
+h2 {
+  color: #c0df34;
+  margin-bottom: 1.2rem; }
+
+h3 {
+  color: #e5eff5;
+  font-size: 1.6rem;
+  margin-bottom: 1.3rem; }
+
+h4 {
+  color: rgba(229, 239, 245, 0.438);
+  font-size: 1.3rem;
+  margin-bottom: .5rem;
+  display: flex;
+  align-items: center; }
+  h4 .price {
+    color: #fff;
+    font-size: 2.2rem;
+    padding-right: .9rem; }
+
+h5 {
+  color: rgba(229, 239, 245, 0.685);
+  font-size: 1.3rem;
+  margin-bottom: .7rem; }
+
+h6 {
+  color: rgba(229, 239, 245, 0.685);
+  font-size: 1.2rem; }
+
+p {
+  color: #98a6bd;
+  font-size: 1.3rem; }
+
+.container {
+  max-width: 55rem;
+  background-color: #fff;
+  margin: 20rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  border-radius: 1%;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.3);
+  overflow: hidden; }
+  @media only screen and (max-width: 400px) {
+    .container {
+      margin: 5rem 4rem; } }
+
+.top-section {
+  grid-column: 1/-1;
+  padding: 3rem 5rem 3rem 3rem; }
+
+.bottom-left-section {
+  background-color: #2ab2af;
+  padding: 3rem 2rem 3rem 3rem; }
+
+.bottom-right-section {
+  background-color: #50bebc;
+  padding: 3rem 7rem 3rem 3rem; }
+
+.btn {
+  margin-top: 2rem;
+  background-color: #c0df34;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 90%;
+  height: 4rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2); }
